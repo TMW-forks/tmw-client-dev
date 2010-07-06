@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="items.xsl"?>
+<!--
+    Here are listed all the known items in The Mana World. This file defines
+    their name, icon, description, weight, etc. It also defines which sprite
+    to use in the case of visible equipment and which sounds to play on certain
+    events related to the item.
+
+    The 'weapon_type' attribute is kept for 0.0 client compatibility. Not to be
+    confused with 'weapon-type'.
+-->
+<items>
+
+    <item id="-100" type="racesprite" name="Human">
+        <sprite gender="male">playersets/humans/player_male_base.xml</sprite>
+        <sprite gender="female">playersets/humans/player_female_base.xml</sprite>
+    </item>
+
+<!-- No items for now -->
+
+</items>
