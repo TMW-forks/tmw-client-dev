@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<!-- dev.themanaworld.org branding file
+
+use like this:
+/path/to/mana{.exe} brandingfile.xml
+
+Available options:
+    AddDEF(brandingData, "wallpapersPath", "");
+    AddDEF(brandingData, "wallpapersFile", "");
+    AddDEF(brandingData, "appName", "Mana");
+    AddDEF(brandingData, "appIcon", "icons/mana.png");
+    AddDEF(brandingData, "loginMusic", "Magick - Real.ogg");
+    AddDEF(brandingData, "defaultServer", "");
+    AddDEF(brandingData, "defaultPort", DEFAULT_PORT);
+    AddDEF(brandingData, "defaultServerType", "tmwathena");
+    AddDEF(brandingData, "appShort", "mana");
+    AddDEF(brandingData, "defaultUpdateHost", "");
+    AddDEF(brandingData, "helpPath", "");
+    AddDEF(brandingData, "onlineServerList", "");
+    AddDEF(brandingData, "guiThemePath", "");
+    AddDEF(brandingData, "theme", "");
+    AddDEF(brandingData, "font", "fonts/dejavusans.ttf");
+    AddDEF(brandingData, "boldFont", "fonts/dejavusans-bold.ttf");
+
+-->
+<configuration>
+    <option name="appName" value="The Mana World - Development version - CR1"/>
+    <option name="defaultServer" value="dev.themanaworld.org"/>
+    <option name="defaultPort" value="9601"/>
+    <option name="defaultServerType" value="manaserv"/>
+    <option name="appshort" value="tmw-dev-cr1"/>
+    <option name="defaultUpdateHost" value="http://dev.themanaworld.org/updates"/>
+    <option name="onlineServerList" value="serverlist.xml"/>
+</configuration>
