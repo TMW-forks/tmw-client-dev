@@ -11,11 +11,6 @@
 -->
 <items>
 
-    <item id="-100" type="racesprite" name="Human">
-        <sprite gender="male">playersets/humans/player_male_base.xml</sprite>
-        <sprite gender="female">playersets/humans/player_female_base.xml</sprite>
-    </item>
-
 <!-- No items for now -->
 
 </items>
