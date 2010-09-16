@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<serverlist version="1">
-  <server name="The Mana World - CR1 - dev" type="manaserv">
-    <connection hostname="dev.themanaworld.org" port="9601" protocol="UDP"/>
-    <state>DEVELOPMENT</state>
-    <support>http://www.themanaworld.org/</support>
-  </server>
-
-</serverlist>
