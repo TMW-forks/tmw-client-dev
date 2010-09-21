@@ -5,62 +5,61 @@
     their name, icon, description, weight, etc. It also defines which sprite
     to use in the case of visible equipment and which sounds to play on certain
     events related to the item.
-
-    The 'weapon_type' attribute is kept for 0.0 client compatibility. Not to be
-    confused with 'weapon-type'.
 -->
 <items>
 
     <!-- Hair sprites: To be moved to hair.xml -->
     <item id="-1" type="hairsprite" name="Flat ponytail">
-        <sprite>hairstyles/hairstyle1.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-2" type="hairsprite" name="Bowl cut">
-        <sprite>hairstyles/hairstyle2.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-3" type="hairsprite" name="Combed back">
-        <sprite>hairstyles/hairstyle3.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-4" type="hairsprite" name="Emo">
-        <sprite>hairstyles/hairstyle4.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-5" type="hairsprite" name="Mohawk">
-        <sprite>hairstyles/hairstyle5.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-6" type="hairsprite" name="Pompadour">
-        <sprite>hairstyles/hairstyle6.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-7" type="hairsprite" name="Center parting/Short and slick">
-        <sprite>hairstyles/hairstyle7.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-8" type="hairsprite" name="Long and slick">
-        <sprite>hairstyles/hairstyle8.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-9" type="hairsprite" name="Short and curly">
-        <sprite>hairstyles/hairstyle9.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-10" type="hairsprite" name="Pigtails">
-        <sprite>hairstyles/hairstyle10.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-11" type="hairsprite" name="Long and curly">
-        <sprite>hairstyles/hairstyle11.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-12" type="hairsprite" name="Parted">
-        <sprite>hairstyles/hairstyle12.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-13" type="hairsprite" name="Perky ponytail">
-        <sprite>hairstyles/hairstyle13.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-14" type="hairsprite" name="Wave">
-        <sprite>hairstyles/hairstyle14.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-15" type="hairsprite" name="Mane">
-        <sprite>hairstyles/hairstyle15.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
     <item id="-16" type="hairsprite" name="Bun">
-        <sprite>hairstyles/hairstyle16.xml</sprite>
+        <sprite>hairstyles/hairstyle0.xml</sprite>
     </item>
-
+    <item id="-17" type="hairsprite" name="Bun2">
+        <sprite>hairstyles/hairstyle0.xml</sprite>
+    </item>
 
     <!-- To be moved to playerset.xml -->
     <item id="-100" type="racesprite" name="Human">
