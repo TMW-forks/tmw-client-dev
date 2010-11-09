@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="220" height="220" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="saturn-Academy-1-WIP.ogg"/>
+ </properties>
  <tileset firstgid="1" name="grassx" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/CR1/nature/ground.png" width="256" height="384"/>
  </tileset>
@@ -20,6 +23,9 @@
  </tileset>
  <tileset firstgid="1187" name="pavement" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/CR1/academy/pavement.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1443" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <layer name="Ground" width="220" height="220">
   <data encoding="base64" compression="gzip">
@@ -48,7 +54,7 @@
  </layer>
  <layer name="Collision" width="220" height="220">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQo/oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgb/4UKttA9AIA
+   H4sIAAAAAAAAA+3TMQ3AMBDAwCzlT6JAyyDp8LIy3EmG4LUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgTu8zF7DnN+j4DTp+g47foOM36PgN7jX5p0dhz2/Q8Rt0Tu94Df47feEfmOM36PgNOn6Djt8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbfeELcfJA9AIA
   </data>
  </layer>
  <objectgroup name="Object Layer" width="220" height="220"/>
